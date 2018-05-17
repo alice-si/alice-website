@@ -1,0 +1,78 @@
+/*!* Navbar *!*/
+
+#Home {
+    top: -80px;
+}
+
+.text-field.w-input {
+    color: white;
+}
+
+.text-field.w-input:hover {
+    color: black;
+}
+
+.fixed .nav-menu-mobile.w-nav-menu {
+    top: 40px;
+}
+
+.fixed .menu-link.w-nav-link {
+    color: white;
+}
+
+.menu-link.w--current {
+    font-size: 14px;
+}
+
+.menu-link {
+    margin-right: 25px;
+}
+
+.nav-menu-mobile.w-nav-menu.static .menu-link.w-nav-link {
+    color: white;
+}
+
+.nav-menu-mobile.w-nav-menu.static {
+    top: 40px;
+}
+
+.w-nav-overlay {
+    height: 450px !important;
+    top: -40px !important;
+}
+
+.navbar.w-nav {
+    overflow: visible;
+}
+
+
+
+
+
+
+
+/* Modified menu */
+.menu-button.w-nav-button {
+    padding: 24px 24px 0 0;
+    font-size: 36px;
+    color: white;
+}
+.nav-menu-mobile.w-nav-menu.static .menu-link.w-nav-link.w--nav-link-open {
+    color: black;
+    font-family: Helveticaneuelt, sans-serif;
+    font-size: 13px;
+}
+
+.nav-menu-mobile.w-nav-menu.static .menu-link.w-nav-link.w--nav-link-open.w--current {
+    color: #2199a4;
+    font-family: Helveticaneuelt, sans-serif;
+    font-size: 13px;
+}
+
+.w-nav-button.w--open {
+    background-color: transparent;
+}
+
+.menu-button.w--open {
+    top: 0;
+}
