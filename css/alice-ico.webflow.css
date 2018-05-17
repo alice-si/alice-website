@@ -2596,61 +2596,6 @@ a {
   width: 100%;
 }
 
-.portfolio-preview-image._2 {
-  background-image: url('../images/02.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._1 {
-  background-image: url('../images/01.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._3 {
-  background-image: url('../images/03-2.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._4 {
-  background-image: url('../images/04-1.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._5 {
-  background-image: url('../images/05.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._6 {
-  background-image: url('../images/06.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._7 {
-  background-image: url('../images/54d90cc7781f27014df66dda_screen-08.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image._8 {
-  background-image: url('../images/09.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .portfolio-preview-image.big {
   min-height: 240px;
@@ -2738,26 +2683,6 @@ a {
   background-size: 334px;
 }
 
-.portfolio-preview-image.big._7 {
-  background-image: url('../images/06.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image.big._8 {
-  background-image: url('../images/screen-08.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.portfolio-preview-image.big._9 {
-  background-image: url('../images/screen-09.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .overlay {
   position: absolute;
