@@ -548,6 +548,23 @@ a {
   background-image: none;
 }
 
+.content-section.hiring {
+  padding-bottom: 81px;
+  background-image: url("http://uploads.webflow.com/597df3f24189db000148a760/5b03afa7d4afb72c32280623_glenn-carstens-peters-282287-unsplash.jpg");
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.filter.were-hiring {
+  background-image: -webkit-linear-gradient(267deg, hsla(0, 0%, 100%, .45), transparent 13%, rgba(0, 0, 0, .77)), url("http://uploads.webflow.com/597df3f24189db000148a760/5afcf7f81ab48a8ae2b53238_Hiring.jpg");
+  background-image: linear-gradient(183deg, hsla(0, 0%, 100%, .45), transparent 13%, rgba(0, 0, 0, .77)), url("http://uploads.webflow.com/597df3f24189db000148a760/5afcf7f81ab48a8ae2b53238_Hiring.jpg");
+}
+
+.role-details .heading-21 {
+  margin-top: 15px;
+}
+
+
 .slide-1 {
   position: static;
   left: 0px;
