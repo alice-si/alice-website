@@ -2662,6 +2662,17 @@ a {
   background-size: 334px;
 }
 
+.portfolio-preview-image.big._saf.partners {
+  position: relative;
+  margin-top: 0px;
+  background-image: url('../images/SAF.jpg');
+  background-size: contain;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+
+
+
 .portfolio-preview-image.big._4 {
   background-image: url('../images/Housing.png');
   background-position: 50% 100%;
