@@ -564,6 +564,12 @@ a {
   margin-top: 15px;
 }
 
+.role-details {
+  font-family: Helveticaneuelt, sans-serif !important;
+  font-size: 17px;
+  color: #505050;
+}
+
 
 .slide-1 {
   position: static;
