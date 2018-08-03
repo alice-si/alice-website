@@ -581,8 +581,8 @@ a {
   overflow: visible;
   height: 830px;
   margin-bottom: -6px;
-  background-image: url('../images/Dandelion_touched.png'), -webkit-linear-gradient(270deg, transparent, transparent);
-  background-image: url('../images/Dandelion_touched.png'), linear-gradient(180deg, transparent, transparent);
+  background-image: url('../images/Dandelion_touched-p-1600.png'), -webkit-linear-gradient(270deg, transparent, transparent);
+  background-image: url('../images/Dandelion_touched-p-1600.png'), linear-gradient(180deg, transparent, transparent);
   background-position: 50% 0px, 0px 0px;
   background-size: cover, auto;
   background-repeat: repeat, repeat;
@@ -591,7 +591,7 @@ a {
 }
 
 .slide-1:hover {
-  background-image: url('../images/Dandelion_touched.png');
+  background-image: url('../images/Dandelion_touched-p-1600.png');
   background-position: 0px 0px;
   background-size: cover;
 }
