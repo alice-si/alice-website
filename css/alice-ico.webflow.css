@@ -687,13 +687,15 @@ a {
   font-size: 14px;
   font-weight: 100;
   letter-spacing: 0.8px;
+  text-align: left;
   text-transform: uppercase;
 }
 
 .menu-link:hover {
   border-style: none;
   border-bottom-color: #019ade;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
+  font-weight: 200;
   color: #2199a4;
   letter-spacing: 0.8px;
 }
@@ -704,10 +706,10 @@ a {
   border-bottom-color: transparent;
   -webkit-transition: border 50ms ease;
   transition: border 50ms ease;
-  font-family: Helveticaneuemed, sans-serif;
+  font-family: Avenir, Helveticaneuemed, sans-serif;
   color: #707070;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1px;
 }
 
