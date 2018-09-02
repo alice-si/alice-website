@@ -1,11 +1,12 @@
 body {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Avenir, Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
 }
 
 h1 {
+  font-family: Avenir;
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 38px;
@@ -17,7 +18,7 @@ h2 {
   position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Raleway, sans-serif;
+  font-family: Avenir;
   color: #454545;
   font-size: 42px;
   line-height: 48px;
@@ -27,7 +28,7 @@ h2 {
 h3 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Raleway, sans-serif;
+  font-family: Avenir;
   color: #454545;
   font-size: 24px;
   line-height: 30px;
@@ -37,7 +38,7 @@ h3 {
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Raleway, sans-serif;
+  font-family: Avenir, Raleway, sans-serif;
   color: #454545;
   font-size: 22px;
   line-height: 24px;
@@ -63,7 +64,7 @@ h6 {
 
 p {
   margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Avenir, 'Open Sans', sans-serif;
   color: #818590;
   font-size: 15px;
   line-height: 22px;
@@ -71,6 +72,7 @@ p {
 
 a {
   color: #019ade;
+  font-family: Avenir;
   text-decoration: underline;
 }
 
@@ -86,7 +88,7 @@ a {
   background-color: #2199a4;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
-  font-family: Montserrat, sans-serif;
+  font-family: Avenir, Montserrat, sans-serif;
   color: #fff;
   font-size: 11px;
   font-weight: 400;
@@ -311,7 +313,7 @@ a {
   top: 90px;
   border: 4px solid transparent;
   background-color: rgba(80, 80, 80, .6);
-  font-family: Helveticaneuemed, sans-serif;
+  font-family: Avenir, Helveticaneuemed, sans-serif;
   text-align: center;
 }
 
@@ -680,18 +682,20 @@ a {
   padding-left: 3px;
   -webkit-transition: none 0ms ease;
   transition: none 0ms ease;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #505050;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 100;
   letter-spacing: 0.8px;
+  text-align: left;
   text-transform: uppercase;
 }
 
 .menu-link:hover {
   border-style: none;
   border-bottom-color: #019ade;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
+  font-weight: 200;
   color: #2199a4;
   letter-spacing: 0.8px;
 }
@@ -702,10 +706,10 @@ a {
   border-bottom-color: transparent;
   -webkit-transition: border 50ms ease;
   transition: border 50ms ease;
-  font-family: Helveticaneuemed, sans-serif;
+  font-family: Avenir, Helveticaneuemed, sans-serif;
   color: #707070;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1px;
 }
 
@@ -913,7 +917,8 @@ a {
   overflow: hidden;
   margin-bottom: 10px;
   float: left;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
+  font-weight: 100;
   color: #fff;
   font-size: 17px;
   line-height: 24px;
@@ -1021,10 +1026,10 @@ a {
   display: inline-block;
   -webkit-transition: color 500ms ease;
   transition: color 500ms ease;
-  font-family: 'Helvetica neu', sans-serif;
+  font-family: Avenir, 'Helvetica neu', sans-serif;
   color: #fff;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.5px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1584,7 +1589,7 @@ a {
   background-color: #f5f5f5;
   -webkit-transition: margin 200ms ease;
   transition: margin 200ms ease;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
 }
 
 .input-box:hover {
@@ -1743,7 +1748,6 @@ a {
   top: 0px;
   z-index: 1001;
   display: block;
-  margin-right: -60px;
   margin-left: 0px;
   padding-top: 0px;
   padding-right: 0px;
@@ -2203,29 +2207,34 @@ a {
 .heading-1.hero {
   position: relative;
   display: inline-block;
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir;
   color: #fff;
   font-size: 46px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 .thin {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .heading-2 {
   position: static;
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
   text-align: center;
+  font-weight: 100;
+  /* text-transform: uppercase; */
 }
 
 .heading-2.white {
   top: 20px;
-  font-family: 'Helvetica neu', sans-serif;
+  font-family: Avenir, 'Helvetica neu', sans-serif;
   color: #fff;
+  font-weight: 200;
+  text-transform: inherit;
   text-align: center;
 }
 
@@ -2385,11 +2394,11 @@ a {
   display: block;
   margin-bottom: 0px;
   padding-top: 12px;
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir;
   color: #fff;
   font-size: 30px;
   line-height: 38px;
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.5px;
 }
 
@@ -2399,7 +2408,7 @@ a {
   padding-bottom: 0px;
   color: #fff;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1.2px;
 }
 
@@ -2474,7 +2483,8 @@ a {
 }
 
 .paragraph {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
+  font-weight: 100;
   font-size: 17px;
 }
 
@@ -3413,20 +3423,23 @@ a {
 }
 
 .paragraph-3 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
+  font-weight: 100;
   font-size: 17px;
 }
 
 .paragraph-4 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
+  font-weight: 100;
   font-size: 17px;
 }
 
 .paragraph-5 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
+  font-weight: 100;
   font-size: 17px;
 }
 
@@ -3437,7 +3450,7 @@ a {
 }
 
 .block-quote {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #fff;
   font-size: 17px;
 }
@@ -3445,53 +3458,60 @@ a {
 .heading-9 {
   position: static;
   top: 0px;
-  font-family: 'Helvetica neu', sans-serif;
+  font-family: Avenir, 'Helvetica neu', sans-serif;
+  font-weight: 300;
   color: #fff;
 }
 
 .paragraph-6 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
+  font-weight: 100;
+  padding: 10px 0;
   font-size: 17px;
 }
 
 .paragraph-7 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   font-size: 17px;
 }
 
 .heading-10 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
+  letter-spacing: 1px;
 }
 
 .heading-11 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .heading-12 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .paragraph-8 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
-  font-size: 17px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .paragraph-9 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
-  font-size: 17px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .paragraph-10 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
-  font-size: 17px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .heading-13 {
-  font-family: 'Helvetica neu', sans-serif;
+  font-family: Avenir, 'Helvetica neu', sans-serif;
   color: #505050;
 }
 
@@ -3561,27 +3581,29 @@ a {
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family: Helveticaneuemed, sans-serif;
+  font-family: Avenir, Helveticaneuemed, sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
   color: #fff;
   font-size: 20px;
 }
 
 .text-span-2 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #fff;
   font-size: 20px;
   font-weight: 300;
 }
 
 .heading-15 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .video-paragraph {
   position: relative;
   left: 20px;
   bottom: 15px;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #fff;
   font-weight: 300;
 }
@@ -3589,7 +3611,7 @@ a {
 .video-paragraph.paragraph-left {
   top: 30px;
   bottom: 15px;
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
   font-size: 17px;
   text-align: left;
 }
@@ -3603,7 +3625,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
+  font-weight: 100;
   color: #fff;
   text-decoration: none;
 }
@@ -3612,18 +3635,20 @@ a {
   position: relative;
   left: 20px;
   top: 30px;
-  font-family: Helveticaneuemed, sans-serif;
+  font-family: Avenir, Helveticaneuemed, sans-serif;
   font-size: 13px;
 }
 
 .paragraph-11._1 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
   font-size: 18px;
 }
 
 .paragraph-11._2 {
-  font-family: 'Helvetica neu', sans-serif;
+  font-family: Avenir, 'Helvetica neu', sans-serif;
   color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
   font-size: 16px;
 }
 
@@ -3637,7 +3662,7 @@ a {
   top: 20px;
   right: 0px;
   bottom: 0px;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   font-size: 17px;
 }
 
@@ -3663,8 +3688,9 @@ a {
 }
 
 .paragraph-12 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
+  font-weight: 100;
   font-size: 17px;
 }
 
@@ -3673,8 +3699,9 @@ a {
 }
 
 .paragraph-13 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
+  font-weight: 100;
   font-size: 17px;
 }
 
@@ -3683,9 +3710,10 @@ a {
 }
 
 .paragraph-14 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
   font-size: 17px;
+  font-weight: 100;
 }
 
 .paragraph-14.materials {
@@ -3693,25 +3721,25 @@ a {
 }
 
 .heading-16 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .paragraph-15 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #707070;
   font-size: 17px;
 }
 
 .heading-17 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .heading-18 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .heading-19 {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
 }
 
 .link-block-9 {
@@ -3762,10 +3790,10 @@ a {
 }
 
 .text-block {
-  font-family: Helveticaneue, sans-serif;
+  font-family: Avenir, Helveticaneue, sans-serif;
   color: #fff;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 100;
   text-align: left;
   text-transform: none;
 }
@@ -3776,8 +3804,9 @@ a {
 }
 
 .heading-20 {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #fff;
+  font-weight: 300;
   font-size: 25px;
   text-align: left;
   text-transform: none;
@@ -3829,21 +3858,21 @@ a {
   margin-top: 50px;
   margin-bottom: 15px;
   padding-bottom: 5px;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #2199a4;
   font-size: 22px;
   text-align: left;
 }
 
 .heading-21.your-questions {
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
 }
 
 .paragraph-16 {
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #505050;
   font-size: 17px;
   text-align: justify;
@@ -3856,7 +3885,7 @@ a {
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #2199a4;
   font-size: 22px;
   line-height: 32px;
@@ -3948,7 +3977,7 @@ a {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 18px;
-  font-family: Helveticaneuelt, sans-serif;
+  font-family: Avenir, Helveticaneuelt, sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -4203,6 +4232,7 @@ html.w-mod-js *[data-ix="show-on-load"] {
   .content-section {
     overflow: hidden;
     width: 100%;
+    font-family: Avenir;
   }
   .content-section.blue {
     overflow: hidden;
@@ -5901,6 +5931,8 @@ html.w-mod-js *[data-ix="show-on-load"] {
   }
   .heading-14 {
     font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 2px;
   }
   .image-8 {
     position: static;
