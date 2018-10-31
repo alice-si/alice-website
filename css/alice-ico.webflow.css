@@ -3000,6 +3000,18 @@ a {
   background-size: cover;
 }
 
+.team-member-image.ken {
+  background-image: url('../images/ken.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.team-member-image.tom {
+  background-image: url('../images/tom.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
 ._50-percent-column {
   width: 50%;
 }
