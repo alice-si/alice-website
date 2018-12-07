@@ -76,3 +76,8 @@
 .menu-button.w--open {
     top: 0;
 }
+
+.charity-logo {
+    margin: 2vw;
+    width: 130px;
+}
