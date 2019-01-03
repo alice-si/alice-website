@@ -2636,7 +2636,8 @@ a {
 
 .portfolio-preview-image.big._3 {
   background-image: url('../images/Youth.png');
-  background-position: 100% 50%;
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolio-preview-image.big._3.partnerships {
@@ -2718,7 +2719,8 @@ a {
 
 .portfolio-preview-image.big._5 {
   background-image: url('../images/Cordaid3.png');
-  background-position: 100% 50%;
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolio-preview-image.big._5.partnerships {
